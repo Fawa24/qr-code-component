@@ -1,0 +1,36 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  font-family: 'Caveat', cursive;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-family: 'Outfit', sans-serif;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.card-img-top {
+ border-radius: 15px;
+}
+
+.card-text {
+  text-align: center;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.card-title {
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+}
+
